@@ -12,5 +12,5 @@ terraform {
 module "ecs" {
   source = "terraform-aws-modules/ecs/aws"
 
-  name = "my-ecs"
+  name = var.name
 }
